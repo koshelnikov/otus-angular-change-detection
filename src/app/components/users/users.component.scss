@@ -1,0 +1,9 @@
+@import "../../../shared.mixins.scss";
+
+:host {
+  @include component-border();
+
+  .children {
+    display: flex;
+  }
+}

@@ -1,0 +1,22 @@
+<h2>AppComponent</h2>
+{{changeDetectLog}}
+<header>
+  <button (click)="onButtonClick()">Click</button>
+  <button (click)="onSetTimeoutClick()">setTimeout</button>
+  <button (click)="onPromiseClick()">Promise</button>
+  <button (mousemove)="onMouseMove()">On Mouse Move</button>
+</header>
+
+<main>
+  <div class="section">
+    <app-books/>
+    <app-users/>
+  </div>
+  <div class="section large">
+    <app-zonejs/>
+  </div>
+  <div class="section">
+    <app-change-detector-ref/>
+    <app-async/>
+  </div>
+</main>
